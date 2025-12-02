@@ -1,0 +1,91 @@
+/* Product Grid */
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Card Styling */
+.card {
+  width: 260px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Title */
+.title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #222;
+}
+
+/* Price text */
+.price {
+  margin: 8px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+/* Total */
+.total {
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #0a7d00;
+}
+
+/* Counter Box */
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+
+/* Buttons */
+.btn {
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 8px;
+  font-size: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all .2s ease;
+}
+
+/* Different colors for + and - */
+.minus {
+  background-color: #ff4b4b;
+  color: white;
+}
+
+.minus:hover {
+  background-color: #e63a3a;
+}
+
+.plus {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.plus:hover {
+  background-color: #3da542;
+}
+
+/* Quantity display */
+.qty {
+  font-size: 18px;
+  font-weight: 600;
+  min-width: 30px;
+  text-align: center;
+}
